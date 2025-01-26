@@ -101,7 +101,7 @@ def filter_variants(features, variants):
         # Filtra as variantes que estão dentro do intervalo da característica
         feature_variants = [
             var for var in variants[1:]  # Ignora a primeira variante (cabeçalho)
-            if feature.start <= var.pos <= feature.end
+            if feature.start<=var.pos<=feature.end
         ]
 
         # Calcula a densidade de variantes por quilobase
