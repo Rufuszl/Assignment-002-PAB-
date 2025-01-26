@@ -58,7 +58,7 @@ Execução do Programa
 
 Execute o script com os seguintes argumentos:
 
-$ João_Fontinha_2024160902-Cláudio_Barroso_2024147362-variant_density_calculator.py -gff Homo_sapiens.GRCh38.113.chromosome.21.gff3 -vcf homo_sapiens-chr21.vcf -var filtered_variants_output.vcf -rep density_report_output.yml -ftr gene,CDS
+$ python João_Fontinha_2024160902-Cláudio_Barroso_2024147362-variant_density_calculator.py -gff <caminho_para_ficheiro_gff> -vcf <caminho_para_ficheiro_vcf> -var <ficheiro_vcf_filtrado> -rep <relatório_yaml_de_saída> -ftr <tipos_de_elementos>
 
 Argumentos:
 
@@ -74,7 +74,7 @@ Argumentos:
 
 Exemplo de Utilização:
 
-$ João_Fontinha_2024160902-Cláudio_Barroso_2024147362-variant_density_calculator.py \
+$ python João_Fontinha_2024160902-Cláudio_Barroso_2024147362-variant_density_calculator.py \
     -gff data/example.gff \
     -vcf data/example.vcf \
     -var output/filtered_variants.vcf \
