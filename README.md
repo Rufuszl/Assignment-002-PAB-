@@ -1,4 +1,4 @@
-# Assignment-002-PAB-
+# Assignment-002-PAB
 Calculadora de Densidade de Variantes
 
 Descrição do Programa
